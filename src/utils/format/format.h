@@ -9,6 +9,5 @@ size_t getFormatLength(const string format, ...);
 size_t vGetFormatLength(const string format, va_list args);
 string stringFromFormat(const string format, ...);
 string vStringFromFormat(const string format, va_list args);
-string stringify(byte *data, size_t bytes);
 
 #endif
