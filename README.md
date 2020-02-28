@@ -2,13 +2,11 @@
 
 ## Description
 
-This is a high-level C Library built for GNU/Linux systems and focusing to bring meaningful objects and utils for faster development.
+This is a high-level C Library built for GNU/Linux systems and focusing on bringing meaningful objects and utils for faster development.
 
 ## Installation
 
 - Install Docker.
-
-- Open a Prompt.
 
 - Navigate to project folder.
 
