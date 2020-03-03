@@ -36,6 +36,8 @@ all: $(SRC:.c=.o) index.h
 
 index.h:
 	$(CC) $(HFLAGS) $(SRC_PATH)/$@ -o $(OUT_PATH)/$(NAME).h
+	sed -i "1s/^/#ifndef _CLIB_H\n\n#define _CLIB_H\n/" $(OUT_PATH)/$(NAME).h
+	echo "#endif" >> $(OUT_PATH)/$(NAME).h
 
 clean:
 	rm -f $(OBJ_PATH)/*.o
